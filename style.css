@@ -1,0 +1,58 @@
+/* This is the CSS file */
+body {
+    background-image: url('Assets/bg.jpg');
+    background-size: cover;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    align-self: center;
+}
+
+.paragraph {
+    text-align: justify;
+    font-size: large;
+    text-indent: 1cm
+}
+
+.personal {
+    line-height: 35px;
+    text-align: left;
+    align-self: center;
+}
+
+h2 {
+    text-decoration: underline dashed;
+}
+
+/* Table Styling*/
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr:hover {background-color: rgb(192, 155, 141);}
+
+th, td {
+    border-bottom: 1px solid rgb(214, 198, 198);
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(210, 186, 186);
+}
+
+td {
+    text-align: left;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 42%;
+}
