@@ -76,23 +76,26 @@ td {
     display: flex;
     margin: 25px 50px 25px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.main-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
 }
 
 .left-container {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 35%;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: auto;
+    flex-basis: 30%;
 }
 
 .right-container {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 55%;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: auto;
+    flex-basis: 50%;
+}
+
+.skills {
+    text-align: left;
 }
