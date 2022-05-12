@@ -56,13 +56,16 @@ ul {
     margin-left: 42%;
 }
 
-.container {
+.main-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    justify-content: space-around;
 }
 
-.container div {
-    border: 1px solid
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
 }
