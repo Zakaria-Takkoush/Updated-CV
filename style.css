@@ -1,4 +1,11 @@
 /* This is the CSS file */
+body {
+    background-image: url('Assets/bg.jpg');
+    background-size: cover;
+    text-align: center;
+    font-family: Cambria;
+}
+
 .header {
     display: flex;
     height: fit-content;
@@ -28,13 +35,6 @@ img {
     flex-wrap: wrap;
 }
 
-body {
-    background-image: url('Assets/bg.jpg');
-    background-size: cover;
-    text-align: center;
-    font-family: Cambria;
-}
-
 .personal {
     line-height: 30px;
     text-align: left;
@@ -47,6 +47,10 @@ h2 {
     padding: 8px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.skills {
+    text-align: left;
 }
 
 /* Table Styling*/
@@ -72,6 +76,8 @@ td {
     text-align: left;
 }
 
+/*flex elements*/
+
 .main-container {
     display: flex;
     margin: 25px 50px 25px;
@@ -96,6 +102,3 @@ td {
     flex-basis: 50%;
 }
 
-.skills {
-    text-align: left;
-}
