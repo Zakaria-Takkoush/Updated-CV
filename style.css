@@ -44,7 +44,9 @@ body {
 h2 {
     background-color:rgba(135, 39, 39, 0.623);
     color: white;
-    padding: 2%;
+    padding: 8px;
+    width: 90%;
+    align-self: center;
 }
 
 /* Table Styling*/
@@ -79,9 +81,10 @@ td {
 .left-container {
     display: flex;
     flex-direction: column;
-    flex-basis: 40%;
+    flex-basis: 35%;
     justify-content: center;
     flex-wrap: wrap;
+    margin: auto;
 }
 
 .right-container {
@@ -90,6 +93,7 @@ td {
     flex-basis: 60%;
     justify-content: center;
     flex-wrap: wrap;
+    margin: auto;
 }
 
 .hobbies {
