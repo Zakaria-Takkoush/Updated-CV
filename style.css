@@ -2,7 +2,7 @@
 .header {
     display: flex;
     height: fit-content;
-    background-color: rgb(214, 198, 198);
+    background-color: #D7C9BB;
     align-content: center;
     justify-content: center;
     padding: 10px;
@@ -42,7 +42,7 @@ body {
 }
 
 h2 {
-    background-color:rgba(135, 39, 39, 0.623);
+    background-color:#977660;
     color: white;
     padding: 8px;
     width: 90%;
@@ -57,15 +57,15 @@ table {
     margin-right: auto;
 }
 
-tr:hover {background-color: rgb(192, 155, 141);}
+tr:hover {background-color: #977660; color: white;}
 
 th, td {
-    border-bottom: 1px solid rgb(214, 198, 198);
+    border-bottom: 1px solid #D7C9BB;
     padding: 10px;
 }
 
 th {
-    background-color: rgb(210, 186, 186);
+    background-color: #D7C9BB;
 }
 
 td {
