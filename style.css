@@ -45,8 +45,8 @@ h2 {
     background-color:#977660;
     color: white;
     padding: 8px;
-    width: 90%;
-    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Table Styling*/
@@ -76,6 +76,7 @@ td {
     display: flex;
     margin: 25px 50px 25px;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .left-container {
@@ -90,12 +91,8 @@ td {
 .right-container {
     display: flex;
     flex-direction: column;
-    flex-basis: 60%;
+    flex-basis: 55%;
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
 }
-
-.hobbies {
-}
-
