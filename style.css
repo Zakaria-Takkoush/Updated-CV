@@ -5,34 +5,27 @@ body {
     text-align: center;
     font-family: Cambria;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 10%;
 }
 
 img {
     border-radius: 50%;
 }
 
-.paragraph {
-    text-align: justify;
-    font-size: large;
-    text-indent: 1cm;
-    padding: 5%;
-}
-
 .personal {
-    line-height: 35px;
+    line-height: 30px;
     text-align: left;
     align-self: center;
 }
 
 h2 {
-    text-decoration: underline dashed;
+    text-decoration: underline;
 }
 
 /* Table Styling*/
 
 table {
-    width: 50%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -63,17 +56,24 @@ ul {
 
 .main-container {
     display: flex;
-    margin: 25px 50px 25px;
+    /*margin: 25px 50px 25px;*/
+    flex-wrap: wrap;
 }
 
 .left-container {
     display: flex;
     flex-direction: column;
     flex-basis: 40%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .right-container {
     display: flex;
     flex-direction: column;
     flex-basis: 60%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
