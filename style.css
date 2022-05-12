@@ -1,15 +1,38 @@
 /* This is the CSS file */
+.header {
+    display: flex;
+    height: fit-content;
+    background-color: rgb(214, 198, 198);
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.photo {
+    flex-basis: 40%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.info {
+    flex-basis: 60%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 body {
     background-image: url('Assets/bg.jpg');
     background-size: cover;
     text-align: center;
     font-family: Cambria;
-    margin-left: 10%;
-    margin-left: 10%;
-}
-
-img {
-    border-radius: 50%;
 }
 
 .personal {
@@ -19,7 +42,9 @@ img {
 }
 
 h2 {
-    text-decoration: underline;
+    background-color:rgba(135, 39, 39, 0.623);
+    color: white;
+    padding: 2%;
 }
 
 /* Table Styling*/
@@ -45,18 +70,9 @@ td {
     text-align: left;
 }
 
-ul {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    list-style-position: inside;
-    justify-content: left;
-    align-content: left;
-}
-
 .main-container {
     display: flex;
-    /*margin: 25px 50px 25px;*/
+    margin: 25px 50px 25px;
     flex-wrap: wrap;
 }
 
@@ -64,7 +80,6 @@ ul {
     display: flex;
     flex-direction: column;
     flex-basis: 40%;
-    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -73,7 +88,10 @@ ul {
     display: flex;
     flex-direction: column;
     flex-basis: 60%;
-    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.hobbies {
+}
+
